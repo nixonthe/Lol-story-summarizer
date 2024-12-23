@@ -1,0 +1,109 @@
+/* Global Styles */
+body {
+  background-image: url('/assets/background.jpeg'); /* Path to background image */
+  background-size: cover; /* Cover entire viewport */
+  background-repeat: no-repeat; /* No tiling */
+  background-position: center; /* Center the image */
+  margin: 0;
+  font-family: Arial, sans-serif; /* Default font */
+}
+
+/* Main App Container */
+.App {
+  text-align: center;
+  margin: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Input Container */
+.input-container {
+  margin: 20px 0; /* Spacing around input section */
+}
+
+.input-container input {
+  width: 300px;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.input-container button {
+  padding: 10px 15px;
+  background-color: #007bff; /* Primary button color */
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s; /* Smooth hover effect */
+}
+
+.input-container button:hover {
+  background-color: #0056b3; /* Darker shade for hover */
+}
+
+/* Summary Container */
+.summary-container p {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  /* Uncomment below for custom text styles */
+  /* color: black; */
+  /* font-size: 16px; */
+}
+
+/* Dropdown Container */
+.dropdown-container {
+  margin: 20px;
+  padding: 10px;
+}
+
+.dropdown-container select {
+  padding: 5px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.dropdown-container option {
+  padding: 10px;
+}
+
+/* App Title */
+.app-title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #ffcc00; /* Highlight color */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Shadow for contrast */
+  margin-bottom: 20px;
+}
+
+/* Summary Title */
+.summary-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #ff3366; /* Emphasis color */
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Shadow for better visibility */
+}
+
+/* Summary Container */
+.summary-container {
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent for readability */
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid #ffcc00; /* Gold border for style */
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7); /* Add a subtle shadow */
+  width: 80%; /* Centered container width */
+  max-width: 600px;
+  text-align: center;
+}
+
+/* Highlighting the Dropdown Label */
+.dropdown-label {
+  font-size: 1.5rem; /* Make the label larger */
+  font-weight: bold; /* Add emphasis with bold text */
+  color: #ffcc00; /* Bright gold for visibility */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Add shadow for readability */
+  margin-bottom: 10px; /* Add space below the label */
+  display: block; /* Ensure it stays on its own line */
+}
