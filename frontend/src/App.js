@@ -40,7 +40,7 @@ const App = () => {
   };
 
   const backgroundStyle = {
-    backgroundImage: `url('/assets/background.jpeg')`, // Replace with your image path
+    backgroundImage: `url('/assets/background.jpeg')`,
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
     backgroundPosition: "center",
