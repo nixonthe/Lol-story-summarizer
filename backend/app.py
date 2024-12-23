@@ -1,7 +1,7 @@
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 import pandas as pd
-from summarizer import summarization  # Import your summarization function
+from summarizer import summarization
 
 app = Flask(__name__)
 CORS(app)  # Allow cross-origin requests from React
