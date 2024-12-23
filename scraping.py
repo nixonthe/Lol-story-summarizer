@@ -51,5 +51,5 @@ if __name__ == '__main__':
             'story': stories
         }
     )
-    df.to_csv('champions_lore.csv', index=False)
+    df.to_csv('backend/champions_lore.csv', index=False)
     
